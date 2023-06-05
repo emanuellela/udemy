@@ -1,56 +1,56 @@
-body {
-    background-color: aliceblue;
-}
-td{
-	width:30%;
-}
+header {
 
-.myClass {
-    background-color: bisque;
-}
+	/*
 
-#mySection1 {
-    background-color: chocolate;
-}
+	font-weight: bold;
 
-#mySection2 {
-    background-color: crimson;
-}
+	font-family: Arial, sans-serif;
 
-div {
-    border: 1px solid black;
-    margin: 10px;
-}
+	line-height: 50px;
 
-span {
-    background-color: aqua;
-}
+	font-size:20px;
 
-header{
-    /*
-    background-image: url("https://cdn.pixabay.com/photo/2017/07/07/12/31/lime-2481346_960_720.jpg");
-    background-repeat: no-repeat;
-    background-size: 150px;
-    background-position: bottom right;
-    background-color: #FFDD00;
-    */
-    background: url("https://cdn.pixabay.com/photo/2017/07/07/12/31/lime-2481346_960_720.jpg") no-repeat bottom right/80% red;
-    height:250px;
-}
-nav{
-    background-color: #F60;
-}
-#mySection1{
-    background-color: rgb(255,0,255);
-}
-#mySection2{
-    background-color: rgba(255,0,0,0.5);
-}
+	*/
 
-header{
-    background-color:aqua;
-    padding: 10px 5px 15px 25px;
-    border:1px solid red;
-    margin: 10px 15px 5px 20px;
+	display: none;
+
+	display: inline;
+
+	display: block;
+
+	display: inline-block;
+
+	display: list-item;
+
+	display: inline-list-item;
+
+	display: none;
+
+	font: 30px Arial, sans-serif;
+
+	}
+
+	span {
+
+	display: list-item;
+
+	margin-left: 20px;
+
+	list-style-type: square;
+
+	}
+
+	#mySection1 {
+
+		background-color: red;
+
+		display: list-item;
+
+
+
+	}
+	#mySection2{
+		background-color: rgba(255,0,0,0.5);
+	}
 
 }
