@@ -1,0 +1,22 @@
+body {
+    height: 2000px;
+}
+
+#mySection3 ~ .myClass , li, nav{
+    background-color:yellow;
+    padding:10px;
+}
+
+header {
+    background-color: aquamarine;
+}
+
+header:hover {
+    background-color: chartreuse;
+}
+
+#mySection1 {}
+
+#mySection2 {}
+
+#mySection3 {}
