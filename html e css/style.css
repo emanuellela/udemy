@@ -1,56 +1,47 @@
+position: static; 
+
+position: relative; 
+
+position: absolute; 
+
+position: fixed;
+
+
+body{
+    height:2000px;
+}
+
 header {
+    position:static;
+    top:20px;
+    left:20px;
+    background-color:beige;
+}
 
-	/*
+span {
 
-	font-weight: bold;
+}
 
-	font-family: Arial, sans-serif;
+#mySection1 {
+    position:absolute;
+    top:20px;
+    left:20px;
+    background-color: red;
 
-	line-height: 50px;
+}
 
-	font-size:20px;
+#mySection2 {
+    position:fixed;
+    top:10px;
+    left:10px;
+    background-color: blue;
 
-	*/
+}
 
-	display: none;
-
-	display: inline;
-
-	display: block;
-
-	display: inline-block;
-
-	display: list-item;
-
-	display: inline-list-item;
-
-	display: none;
-
-	font: 30px Arial, sans-serif;
-
-	}
-
-	span {
-
-	display: list-item;
-
-	margin-left: 20px;
-
-	list-style-type: square;
-
-	}
-
-	#mySection1 {
-
-		background-color: red;
-
-		display: list-item;
-
-
-
-	}
-	#mySection2{
-		background-color: rgba(255,0,0,0.5);
-	}
-
+#mySection3 {
+    position:relative;
+    top:0px;
+    left:0px;
+    background-color: rgba(255,0,0,0.5);
+    z-index: 100;
 }
