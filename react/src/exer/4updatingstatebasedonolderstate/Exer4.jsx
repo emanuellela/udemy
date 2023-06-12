@@ -1,8 +1,7 @@
 import React from 'react';
-
 import './styles.css';
+import ButtonEmanuelle from '../../components/ButtonEmanuelle';
 
-// don't change the Component name "App"
 export default function Exer4() {
     const [numero, setNumero] = React.useState(0)
     const incrementCount = () => {
@@ -11,8 +10,7 @@ export default function Exer4() {
     return (
       <div>
         <p id="counter">{numero}</p>
-        <button onClick={() => { incrementCount() }}>Increment
-        </button>
+        <ButtonEmanuelle label="Increment" onClick={() => { incrementCount() }}></ButtonEmanuelle>
       </div>
     );
 }

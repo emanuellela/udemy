@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './styles.css';
+import ButtonEmanuelle from '../../components/ButtonEmanuelle';
 
 function Exer7() {
   const [isRed, setIsRed] = useState(false);
@@ -15,7 +16,7 @@ function Exer7() {
   return (
     <div>
       <h1 className="title">Styling Example</h1>
-      <button onClick={handleClick}>Toggle Style</button>
+      <ButtonEmanuelle label="Toggle Style" onClick={handleClick}></ButtonEmanuelle>
       <p style={paragraphStyle}>Style me</p>
     </div>
   );

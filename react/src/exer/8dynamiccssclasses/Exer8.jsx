@@ -1,4 +1,5 @@
 import React from 'react';
+import ButtonEmanuelle from '../../components/ButtonEmanuelle';
 
 export default function Exer8() {
     //cria um estado com valor inicial
@@ -6,7 +7,7 @@ export default function Exer8() {
     return (
         <div>
             <p className={isStyled ? 'active' : ''}>Style me!</p>
-            <button onClick={()=> setIsStyled(!isStyled)}>Toggle style</button>
+            <ButtonEmanuelle label="Toggle Style" onClick={()=> setIsStyled(!isStyled)}></ButtonEmanuelle>
         </div>
     );
 }
